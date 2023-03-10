@@ -9,3 +9,4 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 cranes = int(input("Enter cranes numbers: "))
+
