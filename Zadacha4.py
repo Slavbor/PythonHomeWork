@@ -10,6 +10,6 @@
 # 60 -> 10  40  10
 cranes = int(input("Enter cranes numbers: "))
 if cranes == cranes // 3 * 2 + cranes // 3:
-    print('Катя:', cranes // 3 * 2, "жур.", "Петя и Сережа по", int(cranes / 3 / 2), "жур.")
+    print('Катя:', cranes // 3 * 2, "жур.,", "Петя и Сережа по", int(cranes / 3 / 2), "жур.")
 else:
     print("Не соответствует исходным параметрам")
