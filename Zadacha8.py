@@ -19,4 +19,3 @@ for i in range(1, choko_size1 + 1):
         break
 else:
     print("NO")
-

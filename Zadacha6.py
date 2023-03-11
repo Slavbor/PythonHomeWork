@@ -13,27 +13,27 @@ ticket_memory = ticket
 count = 0
 sum1 = 0
 sum2 = 0
-while ticket !=0:
-    count +=1
-    ticket //=10
+while ticket != 0:
+    count += 1
+    ticket //= 10
 ticket = ticket_memory
 if count % 2 == 0:
-    for i in range(count //2):
+    for i in range(count // 2):
         last_digit = ticket % 10
-        sum1 +=last_digit
-        ticket //=10
-    for j in range(count //2):
+        sum1 += last_digit
+        ticket //= 10
+    for j in range(count // 2):
         last_digit = ticket % 10
-        sum2 +=last_digit
-        ticket //=10
+        sum2 += last_digit
+        ticket //= 10
 else:
-    for i in range(count //2):
+    for i in range(count // 2):
         last_digit = ticket % 10
-        sum1 +=last_digit
-        ticket //=10
-    ticket //=10
-    for j in range(count //2):
+        sum1 += last_digit
+        ticket //= 10
+    ticket //= 10
+    for j in range(count // 2):
         last_digit = ticket % 10
-        sum2 +=last_digit
-        ticket //=10
+        sum2 += last_digit
+        ticket //= 10
 print("YES, lucky ticket") if sum1 == sum2 else print("Увы и ах")

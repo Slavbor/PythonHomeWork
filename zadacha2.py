@@ -9,6 +9,6 @@
 threeDigitNumber = int(input("Enter three digit number: "))
 
 first_number = threeDigitNumber % 10
-second_number = threeDigitNumber//10 % 10
-third_number = threeDigitNumber//100 % 10
+second_number = threeDigitNumber // 10 % 10
+third_number = threeDigitNumber // 100 % 10
 print(first_number + second_number + third_number)
