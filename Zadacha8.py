@@ -9,8 +9,10 @@
 choko_size1 = int(input("Введите первое количество долек шоколадки: "))
 choko_size2 = int(input("Введите второе количество долек шоколадки: "))
 breakOff = int(input("Введите сколько долек хотите отломить: "))
-
-for i in range(1, choko_size1 + 1):
+max = choko_size1
+if choko_size2 > choko_size1:
+    max = choko_size2
+for i in range(1, max + 1):
     if i * choko_size1 == breakOff:
         print("YES")
         break
